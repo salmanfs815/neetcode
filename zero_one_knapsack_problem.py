@@ -1,3 +1,5 @@
+# read more: https://salmanfs.ca/posts/knapsack-problem/
+
 # https://neetcode.io/problems/zeroOneKnapsack/question
 
 # You are given a list of items, each with a weight and a profit, along with a

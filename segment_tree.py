@@ -1,5 +1,13 @@
 # https://neetcode.io/problems/segmentTree/question
 
+# A Segment Tree is able to efficiently perform updates or a specific query (e.g. sum) on a collection of values.
+# Query and Update operations both execute in O(log n) time.
+
+# SegmentTree class supports the following operations:
+#   * SegmentTree(int[] arr) will initialize a segment tree based on the given array arr (arr must not be empty).
+#   * int query(int l, int r) will return the sum of all elements in the range [l, r] inclusive (0 <= l <= r < arr.length).
+#   * void update(int idx, int val) will update the element at index idx in the original array to be val (0 <= idx < arr.length).
+
 class SegmentTreeNode:
     def __init__(self, total: int, L: int, R: int):
         self.sum = total

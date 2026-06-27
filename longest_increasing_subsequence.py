@@ -1,3 +1,5 @@
+# read more: https://salmanfs.ca/posts/longest-increasing-subsequence/
+
 from bisect import bisect_left
 
 # returns length of longest increasing subsequence from input list of string
